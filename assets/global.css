@@ -1,0 +1,24 @@
+*, *::after, *::before {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Golos Text",ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+}
+html {
+   background-color: #00050A;
+   display: grid;
+   justify-content: center
+}
+#__nuxt { 
+   display: flex;
+   min-width: 90vw;
+   flex-direction: column;
+   justify-content: space-between
+}
+p {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+a { text-decoration: none }
