@@ -14,7 +14,7 @@
     
 <style scoped>
 .Projets{
-    height: 85vh;
+    height: 60vh;
     display: flex;
     flex-direction: column
 }
@@ -54,9 +54,13 @@ p {
     opacity: 0.7;
     margin-top: 13px
 }
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width: 948px) {
     .Projets {
         padding-top: 50px;
+}
+}
+@media only screen and (max-width: 567px) {
+    .Projets {
         margin: 10px;
         justify-content: center;
         text-align: center;
@@ -64,6 +68,11 @@ p {
     }
     .projet1 {
         margin: 10px 15px;
+    }
+}
+@media only screen and (max-width: 394px) {
+    .projet1 {
+        min-height: 330px
     }
 }
 </style>

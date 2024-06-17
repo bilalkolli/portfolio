@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-const Categories = ["À propos","Projets","Contact"]
+const Categories = ["Projets","Contact"]
 </script>
 
 <style scoped>
