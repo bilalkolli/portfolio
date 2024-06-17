@@ -23,18 +23,18 @@ const Réseaux_sociaux = [
     display: flex;
     justify-content: center;
     height: 75vh;
-    align-items: center;
+    align-items: center
 }
 .description {
     max-width: 430px;
-    margin-right: 100px;
+    margin-right: 100px
 }
 .logo {
-    align-self: center;
+    align-self: center
 }
 h1 {
     font-size: 40px;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.5px
 }
 h2 {
     margin: 20px 0px;
@@ -42,63 +42,64 @@ h2 {
     opacity: 0.8;
     font-weight: 400;
     letter-spacing: -0.5px;
-    line-height: 1.5em;
+    line-height: 1.5em
 }
 p {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
     opacity: 0.8;
-    width: 500px;
+    width: 500px
 }
 a {
-    margin-right: 10px;
+    margin-right: 10px
 }
 .imagehero {
     border-radius: 200em;
-    height: 400px;
-    width: 395px;
+    height: 380px;
+    width: 400px;
     animation: morph 8s ease-in-out infinite;
-    background-image: url('/public/photohero.webp');
+    border: 2px solid white;
+    background-image: url('/public/photohero.webp')
 } 
 
 @keyframes morph {
     0% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%
 }
 50% {
-    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%
 }
 100% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%
 }
 }
 
 @media only screen and (max-width: 947px) {
     .hero{
-        flex-direction: column-reverse;
+        flex-direction: column-reverse
     }
     .description {
         text-align: center;
-        margin-right: 0px;
+        margin-right: 0px
     }
     .imagehero {
-        height: 600px;
+        height: 600px
     }
 }
 @media only screen and (max-width: 505px) {
     .description {
-        padding: 7px;
+        padding: 7px
     }
     .imagehero {
         height: 300px;
         width: 250px;
-        background-position: 45% 25%;
+        background-position: 45% 25%
     }
 }
 @media only screen and (max-width: 431px) {
     h1 {
-        font-size: 35px;
+        font-size: 35px
     }
 }
 </style>
