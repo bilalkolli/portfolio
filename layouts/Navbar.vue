@@ -21,20 +21,20 @@ const Categories = ["À propos","Projets","Contact"]
 }
 p {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 18px
 }
 .ancres {
-    margin-left: 50px;
+    margin-left: 50px
 }
 .ancres:hover {
-    border-bottom: 1.5px solid white;
+    border-bottom: 1.5px solid white
 }
 @media only screen and (max-width: 513px) {
     nav {
-        display: none;
+        display: none
     }
     .navbar {
-        margin-top: 5px;
+        margin-top: 5px
     }
 }
 </style>
