@@ -3,11 +3,11 @@
         <h4>Mes projets</h4>
         <span>Une liste de projets Open Source que je maintiens ou sur lesquels je contribue.</span>
         <hr>
-        <NuxtLink to="https://prompt-craft.netlify.app/" target="_blank" class="projet1">
+        <NuxtLink to="https://quiznuxt.netlify.app/" target="_blank" class="projet1">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="rgb(0 153 242/1)" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-            <p class="nameproject">Prompt-Craft</p>
-            <p>Fullstack project called Prompt-Craft built with Nuxtjs, Vuejs, Prisma, Typescript, supabase, and hosted on Netlify</p>
-            <p>Nuxtjs • Vuejs • Typescript • Prisma</p>
+            <p class="nameproject">QuizNuxt</p>
+            <p>Fullstack project called QuizNuxt built with Nuxtjs, Vuejs, Prisma, Javascript, supabase, and hosted on Vercel</p>
+            <p>Nuxtjs • Vuejs • Javascript • Prisma</p>
         </NuxtLink>
     </div>
 </template>
